@@ -16,10 +16,9 @@ body{
 section{
     position: relative;
     top: 5rem;
-    width: 40%;
+    width: 43%;
     min-height: 70vh;
     display: flex;
-    /* padding-right: 20px; */
     margin: 0 auto;
     border-radius: 10px;
     background: #fff;
@@ -27,7 +26,8 @@ section{
 
 .img-card{
     position: relative;
-    height: 440px;
+    top: 2px;
+    height: 445px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -36,9 +36,46 @@ section{
     font-size: 14px;
     padding: 10px;
     letter-spacing: 4px;
+    margin-left: 10px;
     color: #999898;
 }
 
 .text-title2{
+    font-size: 28px;
+    font-weight: 700;
     padding: 10px;
+    margin-left: 10px;
+}
+
+.text-p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: 10px;
+    margin-left: 10px;
+    color: #999898;
+}
+
+.text-price{
+    margin-left: 20px;
+}
+
+.span1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #066927;
+}
+
+.footer-text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon img{
+    border: 1px solid red;
+}
+
+.span-footer{
+
 }

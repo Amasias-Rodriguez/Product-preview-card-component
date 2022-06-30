@@ -17,7 +17,7 @@ section{
     position: relative;
     top: 5rem;
     width: 43%;
-    min-height: 70vh;
+    height: 445px;
     display: flex;
     margin: 0 auto;
     border-radius: 10px;
@@ -25,39 +25,45 @@ section{
 }
 
 .img-card{
-    position: relative;
-    top: 2px;
     height: 445px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
 .text-title{
+    position: relative;
+    top: 15px;
     font-size: 14px;
     padding: 10px;
     letter-spacing: 4px;
-    margin-left: 10px;
+    margin-left: 15px;
     color: #999898;
 }
 
 .text-title2{
+    position: relative;
+    top: 10px;
     font-size: 28px;
     font-weight: 700;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .text-p{
+    position: relative;
+    top: 8px;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.5rem;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
     color: #999898;
 }
 
 .text-price{
-    margin-left: 20px;
+    position: relative;
+    top: 10px;
+    margin-left: 25px;
 }
 
 .span1{
@@ -66,16 +72,24 @@ section{
     color: #066927;
 }
 
-.footer-text{
-    width: 100%;
+.footer-card{
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background: #066927;
 }
 
-.footer-icon img{
-    border: 1px solid red;
+.footer-icon{
+    margin-right: 10px;
 }
 
 .span-footer{
-
+    font-weight: 700;
+    color: #fff;
 }
